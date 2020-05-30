@@ -1,13 +1,14 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
 import {CssBaseline, Container, Typography} from '@material-ui/core'
+import Header from './components/Header'
 
 function App() {
   return (
     <React.Fragment>
       <CssBaseline/>
-      <Container maxWidth="xl" style={{height: '100%', background: '#ff0000'}}>
+      <Header/>
+      <Container maxWidth="xl" style={{height: 1000, background: '#ff0000'}}>
         <Typography>
           It's a test
         </Typography>
